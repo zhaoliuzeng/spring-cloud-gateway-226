@@ -19,6 +19,7 @@ public class RandomRoutePredicateFactory extends AbstractRoutePredicateFactory<R
 		return exchange -> {
 			//grab the request
 			ServerHttpRequest request = exchange.getRequest();
+			System.out.println(11);
 			//take information from the request to see if it
 			//matches configuration.
 			int number = RandomUtils.nextInt();

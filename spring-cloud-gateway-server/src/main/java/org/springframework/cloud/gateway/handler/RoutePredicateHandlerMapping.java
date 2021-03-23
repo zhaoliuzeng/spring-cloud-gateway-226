@@ -39,7 +39,7 @@ import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.G
  * @author Spencer Gibb
  */
 public class RoutePredicateHandlerMapping extends AbstractHandlerMapping {
-
+    //写注释
 	private final FilteringWebHandler webHandler;
 
 	private final RouteLocator routeLocator;

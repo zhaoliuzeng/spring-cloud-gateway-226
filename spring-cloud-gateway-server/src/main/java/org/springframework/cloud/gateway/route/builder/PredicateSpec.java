@@ -46,6 +46,7 @@ import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.t
 
 /**
  * Predicates that can be applied to a URI route.
+ * 各种断言的规范类,同时需要支持 and or 条件判断
  */
 public class PredicateSpec extends UriSpec {
 

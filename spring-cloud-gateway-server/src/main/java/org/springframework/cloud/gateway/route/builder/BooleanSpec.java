@@ -30,6 +30,7 @@ import static org.springframework.cloud.gateway.support.ServerWebExchangeUtils.t
 
 /**
  * A spec used to apply logical operators.
+ * 逻辑操作规范
  */
 public class BooleanSpec extends UriSpec {
 
@@ -83,6 +84,9 @@ public class BooleanSpec extends UriSpec {
 
 	}
 
+	/**
+	 * 多个断言的关联操作
+	 */
 	public static class BooleanOpSpec extends PredicateSpec {
 
 		private Operator operator;

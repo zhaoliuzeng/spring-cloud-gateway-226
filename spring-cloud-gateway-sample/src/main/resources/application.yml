@@ -36,6 +36,7 @@ spring:
         order: 10000
         predicates:
           - Random=3
+      enabled: false
 
 logging:
   level:

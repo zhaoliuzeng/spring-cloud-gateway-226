@@ -1,4 +1,5 @@
 # Auto Configure
+# todo 那么多启动类，全部都会初始化吗？
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 org.springframework.cloud.gateway.config.GatewayClassPathWarningAutoConfiguration,\
 org.springframework.cloud.gateway.config.GatewayAutoConfiguration,\

@@ -27,6 +27,7 @@ import org.springframework.util.Assert;
 import org.springframework.web.server.ServerWebExchange;
 
 /**
+ * 断言 提供了各种连接 方法 比如 not or  and 等等，连接多个断言
  * @author Ben Hale
  */
 public interface AsyncPredicate<T> extends Function<T, Publisher<Boolean>> {

@@ -1,8 +1,7 @@
-package org.springframework.cloud.gateway.sample;
+package org.springframework.cloud.gateway.sample.ex;
 
 import org.apache.commons.lang.math.RandomUtils;
 import org.springframework.cloud.gateway.handler.predicate.AbstractRoutePredicateFactory;
-import org.springframework.cloud.gateway.handler.predicate.HeaderRoutePredicateFactory;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import org.springframework.web.server.ServerWebExchange;
 

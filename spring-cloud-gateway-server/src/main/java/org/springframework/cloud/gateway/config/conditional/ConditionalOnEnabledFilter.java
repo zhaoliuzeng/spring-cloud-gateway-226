@@ -29,7 +29,7 @@ import org.springframework.context.annotation.Conditional;
 @Target({ ElementType.TYPE, ElementType.METHOD })
 @Documented
 @Conditional(OnEnabledFilter.class)
-public @interface ConditionalOnEnabledFilter {
+public @interface  ConditionalOnEnabledFilter{
 
 	/**
 	 * The class component to check for.

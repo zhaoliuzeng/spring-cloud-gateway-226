@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.springframework.cloud.gateway.sample;
+package org.springframework.cloud.gateway.sample.ex;
 
 import java.util.concurrent.TimeUnit;
 
@@ -22,6 +22,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.isomorphism.util.TokenBucket;
 import org.isomorphism.util.TokenBuckets;
+import org.springframework.context.annotation.Conditional;
 import reactor.core.publisher.Mono;
 
 import org.springframework.cloud.gateway.filter.GatewayFilter;
